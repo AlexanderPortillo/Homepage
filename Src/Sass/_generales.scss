@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 6rem;
+}
+
+.navbar,
+.home,
+.services,
+.works,
+.clients {
+	padding: 1rem 2rem;
+}

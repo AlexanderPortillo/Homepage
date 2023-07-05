@@ -1,0 +1,102 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	&__data {
+	}
+
+	&__text {
+		font-size: 1.1rem;
+		color: #2d9cdb;
+		padding-left: 14rem;
+	}
+
+	&__title {
+		width: 369px;
+		padding-top: 1rem;
+		padding-left: 14rem;
+		line-height: 4rem;
+		font-size: 2.5rem;
+		font-weight: 100;
+		color: #333333;
+	}
+
+	&__img {
+		width: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 1rem;
+		}
+	}
+
+	&__end {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		padding-left: 14rem;
+	}
+
+	&__story {
+		width: 300px;
+		font-size: 3rem;
+		font-weight: 100;
+		color: #333333;
+	}
+
+	&__paragraph {
+		width: 280px;
+		line-height: 1.3rem;
+		font-size: 1rem;
+		font-weight: 100;
+		color: #4f4f4f;
+	}
+
+	&__container {
+		width: 280px;
+		label {
+			display: flex;
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+	}
+
+	&__text--input {
+		color: #828282;
+		cursor: pointer;
+	}
+
+	&__input {
+		display: flex;
+		justify-content: space-between;
+		background-color: #f2f2f2;
+		padding: 0.2rem 0.1rem;
+		border-radius: 0.8rem;
+
+		input {
+			width: 63%;
+			outline: none;
+			border: none;
+			padding: 0.5rem;
+			color: #bdbdbd;
+			font-size: 1rem;
+			background-color: transparent;
+		}
+
+		input::placeholder {
+			font-size: 1.2rem;
+		}
+	}
+
+	&__btn {
+		background-color: #2970f3;
+		border: none;
+		padding: 0.9rem 1.5rem;
+		border-radius: 0.8rem;
+		font-size: 1rem;
+		color: #bdbdbd;
+		cursor: pointer;
+	}
+}

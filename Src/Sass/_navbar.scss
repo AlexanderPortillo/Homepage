@@ -1,0 +1,31 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__logo {
+		font-size: 2.5rem;
+		color: #333333;
+	}
+
+	&__ol {
+		display: flex;
+		flex-direction: row;
+		gap: 2.5rem;
+	}
+
+	&__item {
+		font-size: 1.5rem;
+		color: #333333;
+		font-weight: 100;
+	}
+
+	.disabled {
+		display: none;
+	}
+
+	&__menu {
+		padding: 0.5rem;
+		font-size: 2rem;
+	}
+}
